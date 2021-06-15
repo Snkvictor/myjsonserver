@@ -19,7 +19,7 @@
   "agendamentos": [
     { "id": 1, "horario": "12h30", "pacienteId": 1, "medicoId": 1 },
     { "id": 2, "horario": "13h30", "pacienteId": 2, "medicoId": 2 },
-    { "id": 1, "horario": "14h30", "pacienteId": 3, "medicoId": 3 }
+    { "id": 3, "horario": "14h30", "pacienteId": 3, "medicoId": 3 }
   ],
   "profile": {
     "name": "Snkvictor"
