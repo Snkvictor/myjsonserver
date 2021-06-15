@@ -1,4 +1,10 @@
 {
+   "especialidades": [
+    { "id": 1, "nome": "Post1"},
+    { "id": 2, "nome": "Post1"},
+    { "id": 3, "nome": "Post1"},
+    { "id": 4, "nome": "Post1"}
+  ],
    "pacientes": [
     { "id": 1, "nome": "Victor Lahiguera"},
     { "id": 2, "nome": "Augusto Marques"},
@@ -9,6 +15,6 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "Snkvictor"
   }
 }
