@@ -1,5 +1,5 @@
 {
-  "espec": [
+  "especialidades": [
     { "id": 1, "nome": "Pediatria"},
     { "id": 2, "nome": "Oftalmologia"},
     { "id": 3, "nome": "Oncologia"},
