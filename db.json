@@ -1,18 +1,25 @@
 {
-   "especialidades": [
-    { "id": 1, "nome": "Post1"},
-    { "id": 2, "nome": "Post1"},
-    { "id": 3, "nome": "Post1"},
-    { "id": 4, "nome": "Post1"}
+  "espec": [
+    { "id": 1, "nome": "Pediatria"},
+    { "id": 2, "nome": "Oftalmologia"},
+    { "id": 3, "nome": "Oncologia"},
+    { "id": 4, "nome": "Dermatologia"}
   ],
-   "pacientes": [
+  "medicos": [
+    { "id": 1, "nome": "Renato Krauber", "idEspec": 1},
+    { "id": 2, "nome": "Felipe Skar", "idEspec": 2},
+    { "id": 3, "nome": "Jorge Hawly", "idEspec": 3},
+    { "id": 4, "nome": "Mauricio Zielinsky", "idEspec": 4}
+  ],
+  "pacientes": [
     { "id": 1, "nome": "Victor Lahiguera"},
     { "id": 2, "nome": "Augusto Marques"},
     { "id": 3, "nome": "Rodrigo Faro"}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "agendamentos": [
+    { "id": 1, "horario": "12h30", "pacienteId": 1, "medicoId": 1 },
+    { "id": 2, "horario": "13h30", "pacienteId": 2, "medicoId": 2 },
+    { "id": 1, "horario": "14h30", "pacienteId": 3, "medicoId": 3 }, 
   ],
   "profile": {
     "name": "Snkvictor"
