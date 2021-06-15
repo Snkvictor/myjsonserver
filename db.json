@@ -1,26 +1,14 @@
 {
-  "especialidades": [
-    { "id": 1, "nome": "Post1"},
-    { "id": 2, "nome": "Post1"},
-    { "id": 3, "nome": "Post1"},
-    { "id": 4, "nome": "Post1"}
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "medicos": [
-    { "id": 1, "nome": "Post1", "idEspecialidade": },
-    { "id": 2, "nome": "Post1", "idEspecialidade": },
-    { "id": 3, "nome": "Post1", "idEspecialidade": }
-  ],
-  "pacientes": [
-    { "id": 1, "nome": "Victor Lahiguera"},
-    { "id": 2, "nome": "Augusto Marques"},
-    { "id": 3, "nome": "Rodrigo Faro"}
-  ],
-  "agendamentos": [
-    { "id": 1, "idPaciente": , "idMedico": },
-    { "id": 2, "idPaciente": , "idMedico": },
-    { "id": 3, "idPaciente": , "idMedico": }
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "Snkvictor"
+    "name": "typicode"
   }
 }
