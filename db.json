@@ -18,6 +18,9 @@
   "agendamentos": [
     { "id": 1, "idPaciente": , "idMedico": },
     { "id": 2, "idPaciente": , "idMedico": },
-    { "id": 3, "idPaciente": , "idMedico": },
+    { "id": 3, "idPaciente": , "idMedico": }
   ],
+  "profile": {
+    "name": "Snkvictor"
+  }
 }
